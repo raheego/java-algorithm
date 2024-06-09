@@ -69,20 +69,13 @@ public class Main {
         return size;
     }
 
+  
     public static int empty(){
-        if(size == 0){
-            return 1;
-        } else {
-            return 0;
-        }
+        return (size == 0) ? 1 : 0;
     }
 
     public static int top() {
-        if(size == 0){
-            return -1;
-        } else {
-            return stack[size -1];
-        }
+        return (size == 0) ? -1 : stack[size - 1];
     }
 }
 
