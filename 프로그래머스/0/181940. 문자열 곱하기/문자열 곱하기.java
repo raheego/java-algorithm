@@ -7,6 +7,8 @@ class Solution {
             answer += my_string;
         }
         return answer;
+        
+        //다른풀이
         //return my_string.repeat(k);
     }
 }
